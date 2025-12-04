@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "M4-ArrSeqLL-Proj-AuM", "M4-ArrSeqLL-Proj-AuM.pyproj", "{56EA03A7-3AF6-49A4-A57A-B7F56FA06201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56EA03A7-3AF6-49A4-A57A-B7F56FA06201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EA03A7-3AF6-49A4-A57A-B7F56FA06201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1F51764-7B59-4400-905A-2D59EC6F1BDA}
+	EndGlobalSection
+EndGlobal
