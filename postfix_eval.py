@@ -6,8 +6,11 @@ class postfixEval:
     ##eval's postfix arithmetic expressions
 
     def evaluate(self, expression):
-        stack = arrayStack
-        tokens = expression.split()
+        stack = arrayStack()
+        if isinstance(expression, str):
+            tokens = expression.split()
+        else:
+             tokens = expression
         ##splits string by spaces to get nums/operators
 
         for token in tokens:
@@ -16,7 +19,7 @@ class postfixEval:
                     right = stack.pop()
                     left = stack.pop()
                 except IndexError:
-                    raise ValueError("Error: Not enough operands for operator " + token ". Invalid expression.")
+                    raise ValueError("Error: Not enough operands for operator " + token)
 
                 result = 0
                 if token == '+':

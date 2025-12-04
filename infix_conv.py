@@ -9,7 +9,7 @@ class in2postfixConv:
         ##defines operator precedence; higher num = higher precedence.
 
     def convert(self, expression):
-        stack = arrayStack
+        stack = arrayStack()
         output = []
         tokens = expression.split()
         ##converts space sep'd infix string to postfix
